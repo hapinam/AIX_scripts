@@ -1,0 +1,1 @@
+chfs  -a size=50G /

@@ -1,0 +1,1 @@
+svmon -G -O unit=GB | awk  '/^memory/ {m=$2};/^in use/ { print 100*$3 / m}'
