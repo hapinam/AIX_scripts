@@ -1,0 +1,1 @@
+ps -ef | grep boadmin |awk '{print $2}'|xargs -I {} kill -9  {}
