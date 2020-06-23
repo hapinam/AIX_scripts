@@ -1,0 +1,1 @@
+find /home -type f -mtime +180 -exec rm {} \;
